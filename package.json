@@ -1,0 +1,29 @@
+{
+    "name": "keyboardtracker",
+    "productName": "Keyboard Tracker",
+    "version": "1.0.0",
+    "description": "A program to track your keyboard for streaming.",
+    "main": "index.js",
+    "author": "Spasimir Pavlov",
+    "license": "MIT",
+    "iohook": {
+        "targets": [
+            "node-83",
+            "electron-69"
+        ],
+        "platforms": [
+            "win32",
+            "darwin",
+            "linux"
+        ],
+        "arches": [
+            "x64",
+            "ia32"
+        ]
+    },
+    "dependencies": {
+        "image-size": "^0.9.3",
+        "iohook": "^0.6.6"
+    },
+    "devDependencies": {}
+}
